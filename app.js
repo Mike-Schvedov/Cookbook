@@ -72,7 +72,7 @@ async function loadRecipePage() {
     const recipe = category.recipes.find(r => r.id === recipeId);
 
     document.getElementById("recipeName").textContent = recipe.name;
-    document.getElementById("recipeImage").src = recipe.image;
+    //document.getElementById("recipeImage").src = recipe.image;
 
     // Ingredients
     const ingList = document.getElementById("ingredients");
