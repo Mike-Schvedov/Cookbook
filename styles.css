@@ -1,9 +1,15 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Heebo", sans-serif;
+    font-family: "Narkisim", sans-serif;
     direction: rtl;
-    background-color: #000;
+
+    /* Background image */
+    background-image: url("images/background.jpg");
+    background-size: cover;        /* Makes it fill the screen */
+    background-position: center;   /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents repeating */
+
     color: #fff;
 }
 

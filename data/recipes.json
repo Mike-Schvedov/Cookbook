@@ -5,9 +5,34 @@
       "name": "ראשונות",
       "image": "images/categories/starter.jpg",
       "recipes": [
-        {
+    
+      ]
+    },
+
+    {
+      "id": "main",
+      "name": "עיקריות",
+      "image": "images/categories/main.jpg",
+      "recipes": [
+            {
           "id": "kuba-salk",
-          "name": "קובה סלכ",
+          "name": "קובה סלק",
+          "image": "images/recipes/kuba.jpg",
+          "ingredients": [
+            "500 גרם בשר טחון",
+            "1 בצל גדול קצוץ",
+            "3-2 ענפיפ סלרי",
+            "3 שיני שום כתושות"
+          ],
+          "steps": [
+            "מטגנים את הבצל עד שקיפות",
+            "מוסיפים את הבשר ומתבלים",
+            "מבשלים עד השחמה"
+          ]
+        },
+            {
+          "id": "kuba-salk",
+          "name": "קובה סלק",
           "image": "images/recipes/kuba.jpg",
           "ingredients": [
             "500 גרם בשר טחון",
@@ -22,13 +47,6 @@
           ]
         }
       ]
-    },
-
-    {
-      "id": "main",
-      "name": "עיקריות",
-      "image": "images/categories/main.jpg",
-      "recipes": []
     },
 
     {
