@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Heebo", sans-serif;
+    direction: rtl;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Category full-width buttons */
+.category-block {
+    height: 18vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-title {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+/* Recipe List */
+.recipe-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.recipe-item img {
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+    margin-left: 15px;
+    object-fit: cover;
+}
+
+.recipe-name {
+    font-size: 1.6rem;
+}
+
+/* Recipe Page */
+.recipe-container {
+    padding: 20px;
+}
+
+.recipe-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.back-btn {
+    padding: 12px 20px;
+    background: #444;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
