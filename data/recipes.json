@@ -5,10 +5,82 @@
       "name": "ראשונות",
       "image": "images/categories/starter.jpg",
       "recipes": [
-    
+      {
+          "id": "chicken_nuggets",
+          "name": "נאגטס עוף",
+          "image": "images/recipes/chicken_nuggets.jpeg",
+          "ingredients": [
+           "=== מילוי ===",
+           "חצי קילו עוף טחון",
+           "רבע כפית פלפל שחור",
+           "חצי כף מלח",
+           "כף וחצי קונפלור",
+           "=== ציפוי ===",
+           "3 כפות קונפלור",
+           "3 כפות קמח",
+           "ביצה",
+           "רבע כוס מים קרים"
+          ],
+          "steps": [
+           "בקערה נניח את כל מרכיבי המילוי ונאחד ביחד.",
+           "ניצור כדורים בעזרת ידיים רטובות.",
+           "נניח בצלחת ונשלח למקפיא לעשרים דקות.",
+           "נערבב בקערה נוספת את חומרי הציפוי.",
+           "מוציאים את הנאגטס מהמקפיא, תובלים בציפוי וזורקים ישר לשמן."
+          ]
+        },
+          {
+          "id": "Sushi_rice",
+          "name": "אורז סושי",
+          "image": "images/recipes/SushiRice.jpeg",
+           "ingredients": [
+           "=== אורז ===",
+           "500 גרם אורז סושי",
+           "550 מ''ל מים פושרים",
+           "=== תערובת חומץ ===",
+           "200 מ''ל חומץ אורז",
+           "40 גרם מלח",
+           "40 גרם סוכר"
+          ],
+          "steps": [
+           "=== אורז ===",
+           "שוטפים את האורז במסננת כ-4 פעמים עד שהמים צלולים ומייבשים כ-5 דקות.",
+           "מעבירים לסיר עם תחתית עבה ומוסיפים את המים. מכסים ונותנים לשבת חצי שעה.",
+           "מכסים טוב ומבשלים 10 דקות על אש בינונית ועוד 4 דקות על אש נמוכה.",
+           "מכבים ונותנים לנוח 10 דקות עם מכסה סגור",
+           "=== תערובת חומץ ===",
+           "בסיר קטן על אש נמוכה, מערבבים את המרכיבים עד שהם נמסים ומצננים מעט.",
+           "מערבבים רק ב-180 גרם של התערובת לתוך האורז ומקפלים בעדינות.",
+           "נותנים לאורז לנוח עם מגבת עוד כמה דקות."
+          ]
+        },
+          {
+          "id": "labane",
+          "name": "לאבנה ביתית",
+          "image": "images/recipes/labane.jpeg",
+          "ingredients": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ],
+          "steps": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ]
+        }
       ]
     },
-
     {
       "id": "main",
       "name": "עיקריות",
@@ -19,62 +91,409 @@
           "name": "קובה סלק",
           "image": "images/recipes/kuba.jpg",
           "ingredients": [
-            "500 גרם בשר טחון",
-            "1 בצל גדול קצוץ",
-            "3-2 ענפיפ סלרי",
-            "3 שיני שום כתושות"
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
           ],
           "steps": [
-            "מטגנים את הבצל עד שקיפות",
-            "מוסיפים את הבשר ומתבלים",
-            "מבשלים עד השחמה"
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
           ]
         },
             {
-          "id": "kuba-salk",
-          "name": "קובה סלק",
-          "image": "images/recipes/kuba.jpg",
+          "id": "memulaim",
+          "name": "ממולאים",
+          "image": "images/recipes/memulaim.jpeg",
           "ingredients": [
-            "500 גרם בשר טחון",
-            "1 בצל גדול קצוץ",
-            "3-2 ענפיפ סלרי",
-            "3 שיני שום כתושות"
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
           ],
           "steps": [
-            "מטגנים את הבצל עד שקיפות",
-            "מוסיפים את הבשר ומתבלים",
-            "מבשלים עד השחמה"
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ]
+        },
+           {
+          "id": "spicy_fish",
+          "name": "חריימה",
+          "image": "images/recipes/spicy_fish.jpg",
+           "ingredients": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ],
+          "steps": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ]
+        },
+           {
+          "id": "chicken_patties",
+          "name": "קציצות עוף",
+          "image": "images/recipes/chickenPatties.jpeg",
+          "ingredients": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ],
+          "steps": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ]
+        }
+        ,
+           {
+          "id": "chicken_curry",
+          "name": "עוף בקוקוס וקארי",
+          "image": "images/recipes/chickencurry.png",
+          "ingredients": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ],
+          "steps": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ]
+        },
+           {
+          "id": "kuskus",
+          "name": "קוסקוס",
+          "image": "images/recipes/kuskus.jpeg",
+          "ingredients": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ],
+          "steps": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "name": "סלטים",
+      "image": "images/categories/salads.jpg",
+      "recipes": [
+           {
+          "id": "green_beans",
+          "name": "שעועית ירוקה אסיאתית",
+          "image": "images/recipes/greenbeans.jpeg",
+          "ingredients": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ],
+          "steps": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ]
+        },
+           {
+          "id": "matbuha",
+          "name": "מטבוחה",
+          "image": "images/recipes/matbuha.jpg",
+          "ingredients": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ],
+          "steps": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
           ]
         }
       ]
     },
 
     {
-      "id": "salads",
-      "name": "סלטים",
-      "image": "images/categories/salads.jpg",
-      "recipes": []
-    },
-
-    {
       "id": "spices",
       "name": "רטבים וממרחים",
       "image": "images/categories/spices.jpg",
-      "recipes": []
+      "recipes": [
+           {
+          "id": "green_spicy",
+          "name": "חריף ירוק של מייק",
+          "image": "images/recipes/green_spicy.jpg",
+          "ingredients": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ],
+          "steps": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ]
+        },
+           {
+          "id": "salsa",
+          "name": "סלסה",
+          "image": "images/recipes/salsa.jpg",
+          "ingredients": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ],
+          "steps": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ]
+        },
+           {
+          "id": "coriander_dressing",
+          "name": "רוטב כוסברה לסלט",
+          "image": "images/recipes/coriander_dressing.jpg",
+          "ingredients": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ],
+          "steps": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ]
+        }
+      ]
     },
 
     {
       "id": "soups",
       "name": "מרקים",
       "image": "images/categories/soups.jpg",
-      "recipes": []
+      "recipes": [
+           {
+          "id": "pea_soup",
+          "name": "מרק אפונה",
+          "image": "images/recipes/pea_soup_img.jpg",
+          "ingredients": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ],
+          "steps": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ]
+        },
+           {
+          "id": "tom_kagai",
+          "name": "מרק טום קה גאי מושלם",
+          "image": "images/recipes/tomkagai.png",
+          "ingredients": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ],
+          "steps": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ]
+        },
+           {
+          "id": "spinach_soup",
+          "name": "מרק תרד וקוקוס לימוני",
+          "image": "images/recipes/spinachsoup.jpeg",
+          "ingredients": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ],
+          "steps": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ]
+        }
+      ]
     },
 
     {
       "id": "baking",
       "name": "אפייה",
       "image": "images/categories/baking.jpg",
-      "recipes": []
+      "recipes": [
+           {
+          "id": "hamburger_buns",
+          "name": "לחמניות המבורגר",
+          "image": "images/recipes/hamburger_buns.jpeg",
+          "ingredients": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ],
+          "steps": [
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           ""
+          ]
+        }
+      ]
     }
   ]
 }
